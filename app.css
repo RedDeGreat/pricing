@@ -52,8 +52,17 @@ table {
 /* Main */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
+html{
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+
+}
+
 body{
 	background-color: #60a9ff;
-	font-family: 'Open Sans', sans-serif;
+	display: flex;
+}
 
+.panel {
+	background-color: white;
 }
