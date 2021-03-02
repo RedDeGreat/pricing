@@ -136,7 +136,15 @@ body{
 .pricing-button:focus,
 .pricing-button:hover{
 	background-color: #e1f1ff;
-	color: # ;
 }
 
+.pricing-button.is-featured{
+	background-color: #48aaff;
+	color: white;
+}
+
+.pricing-button.is-featured:focus,
+.pricing-button.is-featured:hover{
+	background-color: #269aff;
+}	
 
