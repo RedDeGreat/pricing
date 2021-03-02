@@ -146,5 +146,11 @@ body{
 .pricing-button.is-featured:focus,
 .pricing-button.is-featured:hover{
 	background-color: #269aff;
-}	
+}
+
+@media (min-width: 900px) {
+	.panel{
+		flex-direction: row;
+	}
+}
 
